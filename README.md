@@ -244,7 +244,7 @@ http://127.0.0.1:5000/
 ## 🧪 Usage
 
 ### **No Setup**
-Visit: [https://aipipelines.xlabub.com/](https://aipipelines.xlabub.com/), select sentence recall and select Redmond Sentence Recall.
+Visit: [https://autorsr.xlabub.com/home/](https://autorsr.xlabub.com/home/)
 
 ### **Manual**
 You can use it locally by calling the api functions within auto_rsr.py like so:
@@ -256,13 +256,9 @@ print(json.dumps(result, indent=1))
 ```
 ### **API**
 
-Once the API is running, you can interact with it in two ways:
+Once the API is running, you can interact with it through curl:
 
-1. **Visual Interface**  
-   Visit: [https://whisperx.xlabub.com/docs/](https://whisperx.xlabub.com/docs/)  
-   This is a hosted playground with a user-friendly GUI that sends requests to the API in the correct format.
-
-2. **Manual Curl Commands**
+**Manual Curl Commands**
 
 ```
 # Transcription
